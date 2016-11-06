@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap Assignment</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two|Open+Sans+Condensed:300|Roboto+Condensed:300|Special+Elite" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" 	data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	      <a class="navbar-brand" href="#">Mikaelas Restaurant</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      	<ul class="nav navbar-nav">
+		        <li><a href="#home">Home</a></li>
+		        <li><a href="#menu">Menu</a></li>
+		        <li><a href="#contact">Contact</a></li>
+	     	</ul>
+	    </div>
+	  </div>
+	</nav>
+	<div id="home"></div>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel"> <!--data-ride begins carousel when page is loaded, slide-to decides which slide -->
+  		<ol class="carousel-indicators">
+  		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+  		  <li data-target="#myCarousel" data-slide-to="1"></li>
+  		  <li data-target="#myCarousel" data-slide-to="2"></li>
+  		</ol>
+  		<div class="carousel-inner" role="listbox">
+  		  <div class="item active">
+  		    <img src="images/glass.jpg" alt="First slide">
+  		    <div class="carousel-caption">
+  		    	<h1>Mikaelas Restaurant</h1>
+              	<p>Welcome in to our Restaurant</p>
+  		    </div>
+  		  </div>
+  		  <div class="item">
+  		    <img src="images/table.jpg" alt="Second slide">
+  		    <div class="carousel-caption">
+  		    	<h1>Sofisticated look</h1>
+              	<p>Take a look inside.</p>
+  		    </div>
+  		  </div>
+  		  <div class="item">
+  		    <img src="images/tomato.jpg" alt="Third slide">
+  		    <div class="carousel-caption">
+  		    	<h1>Enjoy the food made by the best chefs in town.</h1>
+              	<p>Book a table now</p>
+  		    </div>
+  		  </div>
+  		</div>
+  		<a class="left carousel-control" href="#myCarousel" role="button"	 data-slide="prev"> <!-- which way to slide -->
+   		<span class="glyphicon glyphicon-chevron-left"></span>
+    	<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="right carousel-control" href="#myCarousel" role="button	" data-slide="next">
+    	<span class="glyphicon glyphicon-chevron-right"></span>
+    	<span class="sr-only">Next</span>
+  		</a>
+	</div>
+	<hr id="menu">
+	<div id="menu-items" class="container-fluid">
+		<h2> Menu </h2>
+		<hr id="menu-line">
+		<p> Take a look at our appetizing main courses and desserts</p>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="images/fried.jpg" alt="dish 1">
+				<div class="image-text">
+					<h3> Omelette with rice </h3>
+					<p> Works for any meal, breakfast, lunch or dinner. You name it!</p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="images/pasta.jpg" alt="dish 2">
+				<div class="image-text">
+					<h3> Pasta carbonara </h3>
+					<p>Who doesn't like a creamy and cheesy carbonara?</p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="images/salmon.jpg" alt="dish 3">
+				<div class="image-text">
+					<h3> Salmon sallad </h3>
+					<p> Grilled salmon on a bed of sallad, for the healthy ones.</p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="images/thao.jpg" alt="dish 4">
+				<div class="image-text">
+					<h3> Chinese pork </h3>
+					<p> Simple but spicy pork if you enjoy that extra sting.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="images/resort.jpg" alt="dish 5">
+				<div class="image-text">
+					<h3> Noodles </h3>
+					<p> You don't have to be a student to enjoy some delicious noodles.</p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="images/cockle.jpg" alt="dish 6">
+				<div class="image-text">
+					<h3> Carrot mountain </h3>
+					<p> For all you carrot lovers out there, this exotic carrot mountain is for you.</p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="images/cake.jpg" alt="dish 7">
+				<div class="image-text">
+					<h3> Carrot cake </h3>
+					<p>Juicy carrot cake if you wanna go all in on that carrot train.</p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="images/strawberry.jpg" alt="dish 8">
+				<div class="image-text">
+					<h3> Strawberry crepé </h3>
+					<p>Perfect summer dessert for everyone who loves strawberries, so everyone.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr id="contact">
+	<div id="contact-info" class="container-fluid">
+		<h2>Contact</h2>
+		<hr id="menu-line">
+		<div class="row">
+			<div class="col-xs-12">
+				<p><span class="glyphicon glyphicon-calendar"></span> Book a table 	now!</p	>
+				<p><span class="glyphicon glyphicon-envelope"></span> mikaelas.restaurant@mail.com </p>
+				<p><span class="glyphicon glyphicon-earphone"></span> +46700 000 000</p>
+				<p><span class="glyphicon glyphicon-map-marker"></span> Restaurant Street 	1A</p>
+			</div>
+		</div>
+	</div>
+	<div id="footer" class="container-fluid">
+		<div class="row">
+			<div id="footer-text" class="col-xs-6">
+				<h3> Follow us! </h3>
+			</div>
+			<div id="social-media" class="col-xs-6 ">
+				<a class="btn btn-social-icon btn-facebook">
+					<span class="fa fa-facebook"></span>
+				</a>
+    			<a class="btn btn-social-icon btn-twitter">
+    				<span class="fa fa-twitter"></span>
+  				</a>
+  				<a class="btn btn-social-icon btn-instagram">
+    				<span class="fa fa-instagram"></span>
+    			</a>
+			</div>
+		</div>
+	</div>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body { 
+	max-width: 100%; 
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+}
+
+hr { border: none; }
+
+h2 {
+	margin-top: 4em;
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-family: 'Special Elite', cursive;
+}
+
+h2:first-letter { color: #f44242; }
+
+h1, h3 { font-family: 'Special Elite', cursive; }
+
+.navbar-inverse .navbar-brand { color: #f44242; }
+
+.carousel {	margin-top: 50px;}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    overflow-y: hidden;
+    height: 60vh;
+    width: 100vw;
+}
+
+.image-text { padding: 2em; }
+
+.col-xs-12 img { max-width: 100%;}
+
+.col-xs-12,
+.col-sm-6,
+.col-md-4 {
+	margin: 0;
+	padding: 0;
+}
+
+#contact-info .col-xs-12 { 
+	text-align: center; 
+	margin: 3em auto; 
+}
+
+#myNavbar > ul > li { -webkit-transition: all .5s ease-in-out; }
+
+#myNavbar > ul > li:hover {
+	background-color:  #1e1e1e;
+	transition: background-color 1s ease;
+}
+
+#menu-line {
+ 	width: 5em; 
+ 	height: 0.3em; 
+	border-top: 3px solid black;
+}
+
+#menu-items > p {
+	margin-bottom: 8em;
+	text-align: center;
+}
+
+#menu-items { margin: 0 auto; }
+
+#footer-text h3 { 
+	float: right; 
+	font-size: 0.9em;
+	margin-top: 0.9em;
+}
+
+#footer {
+	background-color:  #ededed;
+	width: 100%;
+}
+
+#social-media a span { ;
+	font-size: 1.7em;
+	color: #f44242;
+}
+
+#social-media { padding: 0.2em; }
